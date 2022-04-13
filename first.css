@@ -1,0 +1,127 @@
+.container {background-color:#a1acbe;
+            font-size:small;
+            color:rgb(10,10,110)
+}
+.links {
+    background-color:rgb(5,15,104);
+    padding: 10px;
+}
+.footer {
+    display:flex;
+    justify-content:flex-start;
+    background-color:black;
+    color: rgb(17, 0, 255);
+    height: 200px;
+    }
+.grid1 {width: 400px;
+    text-align: start;
+    margin: 20px 0px 30px 30px;
+    font-family:Verdana, 'Marvel', sans-serif;
+}
+.grid2 {
+    margin-top: 20px;
+}
+.image-side {
+    background-color:#a1acbe;
+    display: flex;
+    text-align: center;
+
+}
+.h {
+    color: #fff000;
+    background-color:#a1acbe;
+    padding-top: 20px;
+}
+.grid-containers {
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                display: grid;
+                color:blue;
+                vertical-align: auto;
+}
+
+
+h2 {color: #fff000;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.grid-item {
+    background-color: rgba(245, 244, 247, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+}
+.box-1 {height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: aqua;
+}
+
+.box-2 {height: 100px;
+        width: 100px;
+        border-radius: 0px;
+        background-color: blue;
+}
+
+.box-3 {height: 100px;
+    width: 150px;
+    background-color: rgb(94, 211, 16);
+}
+
+.box-4 {height: 80px;
+width: 100px;
+border-radius: 100px;
+background-color: rgb(214, 132, 24);
+}
+
+.box-5 {height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #fff000;
+}
+
+.box-6 {height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #fff000;
+}
+
+.box-7 {height: 0px;
+    width: 0px;
+    border-right: 100px solid #fff000;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+.box-8 {height: 0px;
+    width: 0px;
+    border-left: 100px solid #fff000;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+.box-9 {height: 80px;
+    width: 150px;
+    transform: skew(20deg);
+    background: rgb(167, 51, 51);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: #fff000;
+    text-decoration: underline;
+}
+.grid-container{
+    background-color:blue;
+}
